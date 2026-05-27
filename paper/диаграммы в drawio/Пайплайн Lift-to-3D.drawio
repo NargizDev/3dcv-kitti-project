@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="YytZBChHdJ7n6ZHCNlUL">
+    <mxGraphModel dx="1178" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9RvltVobQpmO4llFD5vm-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Image" vertex="1">
+          <mxGeometry height="40" width="80" x="360" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="YOLOv8" vertex="1">
+          <mxGeometry height="50" width="100" x="480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Depth Anything v2&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="100" x="480" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-24" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-21" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="9RvltVobQpmO4llFD5vm-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="190" />
+              <mxPoint x="460" y="155" />
+            </Array>
+            <mxPoint x="360" y="380" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-25" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-21" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="9RvltVobQpmO4llFD5vm-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="190" />
+              <mxPoint x="460" y="235" />
+            </Array>
+            <mxPoint x="360" y="100" as="sourcePoint" />
+            <mxPoint x="470" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="2D bounding boxes +&amp;nbsp;классы объектов " vertex="1">
+          <mxGeometry height="50" width="100" x="627" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Карты относительной глубины" vertex="1">
+          <mxGeometry height="50" width="100" x="600" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-34" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="9RvltVobQpmO4llFD5vm-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="235" />
+              <mxPoint x="830" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;Аффинная калибровка&amp;nbsp;&lt;/div&gt;(scale + shift)" vertex="1">
+          <mxGeometry height="50" width="100" x="720" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAFFE9;strokeColor=#82b366;" value="Lift-to-3D&lt;div&gt;(Восстановление 3D-координат объектов)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="860" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-30" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-22" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9RvltVobQpmO4llFD5vm-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="380" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-31" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-23" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9RvltVobQpmO4llFD5vm-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="380" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-32" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-27" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9RvltVobQpmO4llFD5vm-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="380" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RvltVobQpmO4llFD5vm-33" edge="1" parent="1" source="9RvltVobQpmO4llFD5vm-26" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="9RvltVobQpmO4llFD5vm-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="155" />
+              <mxPoint x="830" y="190" />
+            </Array>
+            <mxPoint x="790" y="170" as="sourcePoint" />
+            <mxPoint x="840" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

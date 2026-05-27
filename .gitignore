@@ -1,0 +1,12 @@
+# Ignore large data, results, checkpoints and temporary files
+/data/
+/results/
+/checkpoints/
+/yolov8n.pt
+/paper/сборка/
+*.log
+*.pyc
+__pycache__/
+*.ipynb_checkpoints
+.DS_Store
+Thumbs.db
