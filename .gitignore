@@ -10,3 +10,4 @@ __pycache__/
 *.ipynb_checkpoints
 .DS_Store
 Thumbs.db
+# Ignore Word temp files\n~$*\n*.tmp
